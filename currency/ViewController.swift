@@ -21,7 +21,7 @@ class ViewController: UIViewController {
                 if let html = response.result.value {
                     if let doc = HTML(html: html, encoding: .utf8) {
                         if let table = doc.at_css("table caption")?.parent {
-//                            print(table.innerHTML)
+                            print(table.innerHTML)
                         }
 //                        print(doc.css("table caption,tbody").count)
 //                        for a in (?.parent?.css("tbody tr"))! {
