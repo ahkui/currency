@@ -22,9 +22,13 @@ class ViewController: UIViewController {
                     if let doc = HTML(html: html, encoding: .utf8) {
                         if let table = doc.at_css("table caption")?.parent {
                             print(table.css("tr").count)
-//                            for row in table.css("tr") {
-//                                print(row.innerHTML)
-//                            }
+                            
+                            for (row) in table.css("tr") {
+                                for tdvalue in row.css("td") {
+                                    print("\(tdvalue.text!)")
+                                }
+                                print("\n")
+                            }
                         }
 //                        print(doc.css("table caption,tbody").count)
 //                        for a in (?.parent?.css("tbody tr"))! {
