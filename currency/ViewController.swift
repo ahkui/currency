@@ -11,40 +11,42 @@ import Alamofire
 import Kanna
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         Alamofire.request("https://www.entiebank.com.tw/rate/page_host.asp").responseString(completionHandler: { response in
             print("\(response.result.isSuccess)")
-            if let html = response.result.value {
-                                print(html)
+            if response.result.isSuccess {
                 
-                
-                
-                if let doc = HTML(html: html, encoding: .utf8) {
-                    print(doc.title)
-                    
-                    // Search for nodes by CSS
-                    for link in doc.css("a, link") {
-                        print(link.text)
-                        print(link["href"])
-                    }
-                    
-                    // Search for nodes by XPath
-                    for link in doc.xpath("//a | //link") {
-                        print(link.text)
-                        print(link["href"])
+                if let html = response.result.value {
+                    if let doc = HTML(html: html, encoding: .utf8) {
+                        if let table = doc.at_css("table caption")?.parent {
+                            print(table.innerHTML)
+                        }
+//                        print(doc.css("table caption,tbody").count)
+//                        for a in (?.parent?.css("tbody tr"))! {
+//                            print(a)
+//                        }
+                            //print(table.innerHTML)
+                        
+                        // Search for nodes by CSS
+//                        for link in doc.css("a, link") {
+//                            print(link.text)
+//                            print(link["href"])
+//                        }
                     }
                 }
+            }else{
+                print("fail load")
             }
         })
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
