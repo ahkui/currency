@@ -15,7 +15,6 @@
 		42C04B5E1E69A6610016194A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C04B5C1E69A6610016194A /* LaunchScreen.storyboard */; };
 		42C04B7E1E69AA210016194A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C04B711E69A9690016194A /* Alamofire.framework */; };
 		42C04B7F1E69AA210016194A /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42C04B711E69A9690016194A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		42C89A9D1E6A11E20022D8FD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 42C89A9C1E6A11E20022D8FD /* Podfile */; };
 		D884008BB81AE71BD0DB65FE /* Pods_currency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81531DD73BD4ABFD73D8716 /* Pods_currency.framework */; };
 /* End PBXBuildFile section */
 
@@ -151,7 +150,6 @@
 		42C04B5D1E69A6610016194A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42C04B5F1E69A6610016194A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42C04B651E69A9680016194A /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
-		42C89A9C1E6A11E20022D8FD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		42C89ABB1E6A1A5F0022D8FD /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		92787FEA18F02DDA45A6AD81 /* Pods-currency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-currency.debug.xcconfig"; path = "Pods/Target Support Files/Pods-currency/Pods-currency.debug.xcconfig"; sourceTree = "<group>"; };
 		A23292945E29AA648EE5C55D /* Pods-currency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-currency.release.xcconfig"; path = "Pods/Target Support Files/Pods-currency/Pods-currency.release.xcconfig"; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				42C89ABB1E6A1A5F0022D8FD /* Alamofire.xcodeproj */,
-				42C89A9C1E6A11E20022D8FD /* Podfile */,
 				42C04B4F1E69A6600016194A /* currency */,
 				42C04B4E1E69A6600016194A /* Products */,
 				4519A9DCBCF36E6298AC6098 /* Pods */,
@@ -429,7 +426,6 @@
 			files = (
 				42C04B5E1E69A6610016194A /* LaunchScreen.storyboard in Resources */,
 				42C04B5B1E69A6610016194A /* Assets.xcassets in Resources */,
-				42C89A9D1E6A11E20022D8FD /* Podfile in Resources */,
 				42C04B561E69A6610016194A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
