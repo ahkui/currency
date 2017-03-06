@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272397461E6D7A6F007F3C57 /* currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272397451E6D7A6F007F3C57 /* currency.swift */; };
 		42C04B511E69A6600016194A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C04B501E69A6600016194A /* AppDelegate.swift */; };
 		42C04B531E69A6600016194A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C04B521E69A6600016194A /* ViewController.swift */; };
 		42C04B561E69A6610016194A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C04B541E69A6610016194A /* Main.storyboard */; };
@@ -141,6 +142,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		272397451E6D7A6F007F3C57 /* currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = currency.swift; sourceTree = "<group>"; };
 		42C04B4D1E69A6600016194A /* currency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = currency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C04B501E69A6600016194A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42C04B521E69A6600016194A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				42C04B5C1E69A6610016194A /* LaunchScreen.storyboard */,
 				42C04B5F1E69A6610016194A /* Info.plist */,
 				42C04B571E69A6610016194A /* currency.xcdatamodeld */,
+				272397451E6D7A6F007F3C57 /* currency.swift */,
 			);
 			path = currency;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272397461E6D7A6F007F3C57 /* currency.swift in Sources */,
 				42C04B531E69A6600016194A /* ViewController.swift in Sources */,
 				42C04B511E69A6600016194A /* AppDelegate.swift in Sources */,
 				42C04B591E69A6610016194A /* currency.xcdatamodeld in Sources */,

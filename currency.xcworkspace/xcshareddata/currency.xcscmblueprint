@@ -9,8 +9,8 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "14E268CD-907D-4D24-B947-34FC310A608A",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "3D03C935A2A2DCB50FF888850CA75E7B9B94A1FD" : "currency2\/",
-    "67620B5EFA902936DF04070AF595B76AB0333747" : "currency2\/Alamofire\/"
+    "3D03C935A2A2DCB50FF888850CA75E7B9B94A1FD" : "currency\/",
+    "67620B5EFA902936DF04070AF595B76AB0333747" : "currency\/Alamofire\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "currency",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
