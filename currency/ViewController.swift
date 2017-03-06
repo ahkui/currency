@@ -22,15 +22,25 @@ class ViewController: UIViewController {
                         if let table = doc.at_css("table caption")?.parent {
                             for (row) in table.css("tr") {
                                 for tdvalue in row.css("td") {
+                                    let str = tdvalue.text!
+                                    
+                                    
+                                    
 //                                    let a = try Double(tdvalue.text)
-                                    print("\(tdvalue.text?.substring(from: (tdvalue.text?.index((tdvalue.text?.startIndex)!, offsetBy: (tdvalue.text?.characters.count)!-4))!)) - \(tdvalue.text!) -")
-//                                    let start = str.index(str.startIndex, offsetBy: 7)
-//                                    let end = str.index(str.endIndex, offsetBy: -6)
+//                                    print("\(tdvalue.text?.substring(from: (tdvalue.text?.index((tdvalue.text?.startIndex)!, offsetBy: (tdvalue.text?.characters.count)!-4))!)) - \(tdvalue.text!) -")
+                                    let start = str.index((str.startIndex), offsetBy: (str.characters.count)-4)
+                                    let end = str.index((str.endIndex), offsetBy: (str.characters.count)-1
+                                    )
 //                                    let range = start..<end
-//                                    
-//                                    str.substring(with: range)
+                                    
+                                    str.substring(with: ((str.index((str.startIndex), offsetBy: 7))..<(str.index((str.endIndex), offsetBy: 7))))
+                                    print(str)
+                                    
                                 }
                             }
+                            
+                            
+                            
                         }
                     }
                 }
